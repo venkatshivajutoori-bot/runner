@@ -1,0 +1,15 @@
+name: runnerextra
+on: workflow_dispatch
+
+jobs:
+ 
+      
+
+  secodjob:
+    runs-on: self-hosted
+    steps:
+      - name: create folder
+        run: |
+          cd
+          mkdir extra
+          ls
